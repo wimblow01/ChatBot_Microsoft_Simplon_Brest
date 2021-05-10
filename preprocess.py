@@ -26,4 +26,3 @@ class Preprocess:
         print(cls.prediction_input)
         return cls.prediction_input
 
-# Preprocess.preproc("Je suis un handicapé")
