@@ -15,10 +15,8 @@ def index():
 
 @app.route("/chat", methods=["GET","POST"])
 def chat():
-    print('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh je suis dans app.py hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh')
     if request.method == "POST":
         sentence = request.form['message']
-        print(sentence)
         sentence = unquote(sentence)
         print(sentence)
         preproc_mess = prep.preproc(sentence)
