@@ -1,0 +1,388 @@
+{"intents":
+    [
+        {
+            "tags": "bonjour",
+            "input":["bonjour", "salut", "ravi de vous rencontrer"],
+            "responses":[
+                "Bonjour, ravi de vous renconter. En quoi puis-je vous aider ?",
+                "Bonjour, comment puis-je vous aider ?",
+                "Bonjour, avez-vous une question ?",
+                "Bonjour, avez-vous besoin d'un renseignement ?"
+            ]
+        },
+        {
+            "tags": "au revoir",
+            "input":["Merci","Merci beaucoup" ,"au revoir","bonne journée", "à bientôt", "je vous remercie"],
+            "responses":[
+                "Ok, bonne journée.",
+                "Merci et bonne journée.",
+                "Je vous en prie, passez une bonne journée.",
+                "J'espère avoir pû vous aider, à bientôt.", 
+                "Merci et au revoir."
+            ]
+        },
+        {
+            "tags": "contact",
+            "input":["numéro de téléphone",
+                "quel est votre numéro de téléphone?",
+                "où puis-je vous appeler ?",
+                "comment puis-je vous contacter",
+                "je souhaite m'adresser à un humain",
+                "je veux parler à une personne",
+                "à qui puis-je m'adresser ?",
+                "je souhaiterais envoyer un message",
+                "adresse mail", "email", "mail", "téléphone", "contact"],
+            "responses":[
+                "Pour tout renseignement, vous pouvez contacter le secrétariat de l'ISEN par téléphone au 02.98.56.25.35, par mail à Microsoft.Simplon.Isen@yahoo.fr ou par courrier à 'Ecole Simplon-Microsoft /n 19 rue Cuirassé de Bretagne /n 29200 Brest'"
+            ]
+        },
+        {
+            "tags": "chatbot",
+            "input":["qui a fait ce chatbot ?",
+                "ce chatbot est formidable",
+                "comment a été fait ce chat?",
+                "qui a fait ce travail?"
+            ],
+            "responses":[
+                "Ce chatbot a été réalisé par une équipe d'apprenants, Baptiste LG, Aude, Patricia et Ronan"
+            ]
+        },
+        {
+            "tags": "recrutement",
+            "input":["recrutement",
+                 "postuler",
+                "Comment se déroule le recrutement ?",
+                "Quel est le niveau demandé ? ",
+                "Quel est le niveau d'études minimum ?",
+                "Un diplôme est-il nécessaire ?",
+                "Faut-il déjà savoir coder ?",
+                "Quelles connaissances en informatiques sont demandées ?",
+                "Quel est le niveau des apprenants?",
+                "Quel genre d'élèves recrutez-vous ?",
+                "Quel est le niveau des étudiants ?",
+                "Vos élèves savent-ils programmer avant de démarrer la formation ?"
+            ],
+            "responses":[
+                "L/'école Microsoft IA by Simplon recrute des personnes allant d'un niveau pré-bac à bac +5. Cette formation vise des personnes sans emploi souhaitant procéder à une reconversion professionnelle. De ce fait il n'est pas demandé aux postulants d'avoir un niveau élevé en langage informatique pour intégrer l'école. "
+            ]
+        },
+        {
+            "tags": "durée",
+            "input":[
+                "Combien de temps dure la formation?",
+                "Quelle est la durée de la formation ?",
+                "Combien de temps dure l'alternance ? ",
+                "Quand débute la prochaine session ?",
+                "Quand sera la prochaine rentrée ?",
+                "Combien de temps ça dure ?"
+            ],
+            "responses":[
+                "Actuellement, la formation pour l'école de Brest est séparée en 2 phases. Un première de 7 mois de formation intensive au développement et à l'IA; puis une alternance qui durera un an, à raison de trois semaines en entreprise et une semaine en cours. La date de la prochaine session n'est pas encore fixée, mais elle ne débuterait pas avant juin 2022"
+            ]
+        },      
+        {
+            "tags": "cout",
+            "input":[
+                "Combien cela coûte-t-il?", 
+                "Quel est le coup de la formation? ", 
+                "A combien s'élève l'apport financier?",
+                "prix", "coût", "tarif", "financement", "aide", "aide financière"
+            ],
+            "responses":[
+                "La formation de Brest étant financée par Pôle Emploi, la Région Bretagne et la ville de Brest, il n'y a pas de droits d'entrée à payer pour les apprenants. Les entreprises peuvent verser leur taxe d'apprentissage à l'ISEN"
+            ]
+        },        
+        {
+            "tags": "participation",
+            "input":[
+                "Comment mon entreprise peut-elle participer à ce programme", 
+                "Je souhaiterais plus d'informations pour impliquer mon entreprise",
+                "Comment se passe le partenariat avec les entreprises ?",
+                " Mon entreprise sera-t-elle informée de la progression des apprenants?",
+                "Mon entreprise souhaite intégrer ce processus",
+                "En tant qu'entreprise, je souhaite participer à la formation"
+            ],
+            "responses":[
+                "Si vous êtes une entreprise, merci de recharger le chatbot et de sélectionner 'Je suis une entreprise'."
+            ]
+        },
+        {
+            "tags": "localisation",
+            "input":[
+                "Où se déroulent les cours?", 
+                "La formation se passe-t-elle en présentiel ou en distanciel?",
+                "Où êtes-vous situés?",
+                "Dans quel coin de Brest êtes-vous?",
+                "Où pouvons-nous vous rencontrer ?",
+                "A quel endroit se déroulent les cours?",
+                "où est ce que ça se passe?",
+                "Dans quelle ville êtes-vous ?",
+                "Dans quelle partie de la France se déroule la formation? ",
+                "C'est en Bretagne?",
+                "la formation est à Brest?",
+                "Les classes ont lieu à Brest même ?"
+            ],
+            "responses":[
+                "La formation prend place dans les locaux de l'ISEN, rue Cuirassé de Bretagne à Brest"
+            ]
+        },
+        {
+            "tags": "teamwork",
+            "input":[
+                "La formation est-elle individuelle?", 
+                "Les travaux se font-ils en groupe ?",
+                "Y a t-il des équipes de travail ?",
+                "Comment se réalisent les projets ?",
+                "Est-ce que l'on travaille en groupe ?",
+                "Est ce que l'on travaille seul? ",
+                "Les projets se réalisent ils à plusieurs?"
+            ],
+            "responses":[
+                "Beaucoup de projets se réalisent en équipe, c'est l'une des forces de la formation. Cela permet d'habituer les apprenants à une organisation plus proche du monde réel."
+            ]
+        },
+        {
+            "tags": "evaluation",
+            "input":[
+                "Comment se passe l'évaluation ?", 
+                "Le travail est-il noté?",
+                "Quel est le système d'évaluation ?",
+                "Il y a t il un système de compétences ?",
+                "Quel est le système d'évaluation ?",
+                "Comment se passe la validation du diplôme ?",
+                "Les élèves sont ils évalués ?",
+                "Est-ce qu'on a des notes ?",
+                "Est-ce qu'on sera noté?"
+            ],
+            "responses":[
+                "L'évaluation est basée sur une acquisition des compétences. Les apprenants verront leur niveau de compétence augmenter au fur et à mesure de la formation. Ces compétences seront validées suite aux différents rendus de projets."
+            ]
+        },
+        {
+            "tags": "certification",
+            "input":[
+                "Quel est l'intitulé de la certification ?",
+                "Quel est le niveau du diplôme obtenue ?",
+                "Quel est le type de diplôme obtenue ?",
+                "A quel métier prépare cette formation?",
+                "Travaille-t-on sur Microsoft Azure ?"
+            ],
+            "responses":[
+                "Au terme de la formation vous pourrez obtenir, Le titre à finalité professionnelle (certification RNCP) Développeur.euse en intelligence artificielle de niveau 6 (ancien niveau II), équivalent Bac+3 ou 4 – RNCP34757, Une certification Méthodes agiles de gestion et amorçage de projet - RS2085, Une certification Microsoft Designing and Implementing a Data Science Solution on Azure – DP100"
+            ]
+        },
+        {
+            "tags": "inclusion",
+            "input":[
+                "Quelles sont les valeurs de l'école ?",
+                "Quelle est votre vision du handicap ?",
+                "Quelle est votre position vis à vis du handicap ?",
+                "Quel sont les aides et outils mis en place pour les personnes neuroatypiques ?",
+                "J'ai un handicap, puis-je postuler quand même ?",
+                "Pratiquez-vous l'inclusion? "
+
+            ],
+            "responses":[
+                "L'école IA Microsoft by Simplon est engagée en matière d'égalité des chances. "
+            ]
+        },
+        {
+            "tags": "logement",
+            "input":[
+                "Y a-t-il des hébergements étudiants ?",
+                "Puis-je avoir une chambre en cité universitaire ?",
+                "Est-ce qu'il y a des logements étudiants ?",
+                "Faut-il habiter sur Brest ?",
+                "Y a-t-il des solutions pour dormir sur Brest ?"
+            ],
+            "responses":[
+                "La formation ne dépendant pas du ministère de l'éducation, aucun logement étudiant n'est mis à disposition des apprenants. Il est donc conseillé d'avoir un logement sur Brest ou alentours. "
+            ]
+        },
+        {
+            "tags": "alternance",
+            "input":[
+                "Le contrat en alternance est-il systématique?", 
+                "Des périodes de stages sont-elles prévues lors de la période intensive?", 
+                "Comment sont faites les attributions des entreprises ?", 
+                "Est-on seul dans son entreprise ?", 
+                "Sommes-nous à plusieurs dans les entreprises ?", 
+                "rencontrons-nous les entreprises avant le début de la formation ?",
+                "Combien de fois, allons nous en entreprise avant le début de l'alternance?", 
+                "Le tuteur est-il obligatoirement un expert métier ?",
+                "Faut-il chercher son alternance?",
+                "Est-ce que c'est dur de trouver son entreprise?",
+                "dois-je chercher une entreprise tout seul ?",
+                "Comment ça se passe pour l'alternance ?",
+                "est ce que je peux choisir mon alternance ?"
+            ],
+            "responses":[
+                "Chaque apprenant aura une alternance trouvée par l'école. Trois périodes de présence en entreprise de quelques jours sont prévues au cours du cycle de formation. Il y a parfois plusieurs alternants par entreprise. Les tuteurs ne sont pas forcément des experts IA."
+            ]
+        },
+        {
+            "tags": "formateurs",
+            "input":[
+                "Les cours sont-ils assurés par les équipes partenaires?", 
+                "Des intervenants extérieurs participent-ils au cursus de formation?", 
+                "Les  intervenants sont-ils des profs de l'ISEN ?", 
+		        "Est-ce que les formateurs sont un partenariat prof/entreprises?",
+		        "Qui sont les formateurs ?",
+                "est ce des cours descendants  ?", 
+                "Les entreprises partenaires ont-elles des heures de formation obligatoires?", 
+                "Le programme est-il validé ou imposé par les partenaires ?",
+                "Les formateurs sont-ils des personnes de Simplon ou Microsoft",
+                "qui sont les profs?",
+                "les professeurs sont-ils tous des experts IA ?",
+                "les enseignants sont-ils tous des codeurs?",
+                "les profs donnent ils des cours magistraux ?"
+
+            ],
+            "responses":[
+                "Les cours sont essentiellement dispensés en mode pédagogie active par des formateurs de l'ISEN (75%), le travail en équipes est priviligié. Le parcours de formation est ouvert aux intervenants extérieurs aussi bien entreprises partenaires (sans obligation pour ces dernières) qu'à des entrepreneurs ou des personnes en freelance."
+            ]
+        },
+       {
+            "tags": "materiel",
+            "input":[
+                "Les PC sont-ils fournis dans le cadre de la formation?", 
+                "Quel matériel dois-je avoir pour suivre la formation?", 
+                "Faut-il avoir un PC pour suivre la formation?", 
+		        "L'entreprise nous fournit-elle un ordinateur lors de la formation?",
+                "Faut-il prévoir l'achat d'un ordinateur et/ou une imprimante?", 
+                "Le matériel fournit  nous appartient-il?", 
+             	"Un ordinateur est-il indispensable?",
+		        "Peut-on utiliser son ordinateur personnel pendant la formation?",
+		        "Est-ce que l'on nous prête un ordinateur le temps de la formation?"
+            ],
+            "responses":[
+                "Un ordinateur portable est fourni à chaque alternant en début de formation moyennant un chèque de caution. Celui-ci sera restitué à la fin de la formation."
+            ]
+        },
+	    {
+            "tags": "confinement",
+            "input":[
+                "La formation a t'elle été maintenue pendant le confinement?", 
+                "Les cours sont-ils dispensés pendant le confinement?", 
+                "La pédagogie active est-elle maintenue pendant le confinement?", 
+		        "Le travail en équipe est-il possible à distance?",
+                "learning by teaching est-il envisageable pendant le confinement?", 
+                "L'évaluation des compétences est-elle possible pendant le confinement?", 
+             	"Les contrats de professionnalisation continuent-ils pendant le confinement?",
+		        "Y'a t'il du présentiel et du distanciel pendant le confinement?",
+		        "Les partenariats avec les entreprises souffrent-ils du confinement"
+            ],
+            "responses":[
+                "La pédagogie active étant un élément essentiel de la formation, les cours ont pu être maintenus pendant le confinement selon les mesures réglementaires imposées."
+            ]
+        },
+       {
+            "tags": "pédagogie",
+            "input":[
+                "C'est quoi la pédagogie active?", 
+                "Quelle différence entre pédagogie active et cours descendant?", 
+                "La pédagogie active est-elle accessible à tous?", 
+		        "Quel est l'intérêt de la pédagogie active?",
+                "Quel type d'enseignement est délivré pendant la formation?", 
+                "Quelle est la méthode de formation?", 
+             	"C'est quoi une journée de cours typique?",
+		        "Quel est l'objectif de la pédagie active?",
+		        "doit-on faire des recherches",
+                "quel est le format des cours?",
+                "comment sont donnés les cours?",
+                "Quel genre de pédagogie est utilisée?"
+            ],
+            "responses":[
+                "La pédagogie active a pour objectif de rendre l'apprenant acteur de ses apprentissages afin qu'il construise ses savoirs à travers des situations de recherche. Cette méthode est accessible aux personnes qui ne souhaitent pas écouter des cours toute la journée, et qui favorisent la méthode par apprentissage autonome dans un cadre. La journée commence par des recherches sur un thème, suivie de mise en situation à travers des projets plus ou moins longs"
+            ]
+        },
+        {
+            "tags": "presentation",
+            "input":["Qui êtes-vous",
+                "Quel genre d'école est-ce ?",
+                "Qu'est-ce que l'école Microsoft-IA By Simplon ?",
+                "Que proposez-vous ?",
+                "Quelle genre d'école est Simplon?",
+                "Quelle est votre activité?",
+                "Que faites-vous?",
+                "En quoi consiste votre école?",
+                "Expliquez moi ce qu'est Simplon",
+                "parlez moi de vous",
+                "parlez moi de l'école"
+            
+            ],
+            "responses":[
+                "Simplon est un réseau de fabriques numériques et inclusives en France et à l’étranger. Nous avons formé gratuitement plus de 11 476 Simplonien.nes depuis 2013, dont 55% de personnes peu ou pas diplômées. Nous sommes une entreprise sociale et solidaire qui entend faire du numérique un véritable levier d’inclusion pour révéler des talents différents peu représentés dans le digital et les métiers techniques du numérique."
+            ]
+        },
+        {
+            "tags": "entretiens",
+            "input":[            
+                "Comment se passent les entretiens ?",
+                "Comment sont départagées les candidatures ?",
+                "Qui sont les meilleurs candidats ?",
+                "Qui a le plus de chances d'être admis ?",
+                "en quoi consistent les entretiens?",
+                "comment se passe l'examen d'entrée ?",
+                "y a t  il un test d'entrée ?",
+                "Est ce qu'il y a un test de niveau ?",
+                "est-ce que c'est un concours?",
+                "existe t il un examen pour intégrer l'école ?"            
+            ],
+            "responses":[
+                "Il y a un questionnaire d'entrée, à rélaiser en ligne, suivi d'une demi journée d'entretiens, de motivation, technique, et financier."
+            ]
+        },
+        {
+            "tags": "emploi",
+            "input":[
+                "Le contrat en alternance est-il systématique?", 
+                "Des périodes de stages sont-elles prévues lors de la période intensive?", 
+                "Comment sont faites les attributions des entreprises ?", 
+                "Est-on seul dans son entreprise ?", 
+                "Sommes-nous à plusieurs dans les entreprises ?", 
+                "rencontrons-nous les entreprises avant le début de la formation ?",
+                "Combien de fois, allons nous en entreprise avant le début de l'alternance?", 
+                "Le tuteur est-il obligatoirement un expert métier ?"
+            ],
+            "responses":[
+                "Chaque apprenant aura une alternance trouvée par l'école. Trois périodes de présence en entreprise de quelques jours sont prévues au cours du cycle de formation. Il y a parfois plusieurs alternants par entreprise. Les tuteurs ne sont pas forcément des experts IA."
+            ]
+        },
+        {
+            "tags": "technologie",
+            "input":[            
+                "Quelles technologies sont exploitées? ",
+                "Quelles technologiques sont utilisées? ",
+                "Les différentes technologies",
+                "Java",
+                "Python",
+                "Web",
+                "Les langages qui seront vus dans la formation ?",
+                "quel système d'exploitation sera utilisé?",
+                "quels langages sont enseignés?",
+                "quelles techno utilisez vous?"
+                            
+            ],
+            "responses":[
+                "Les ordinateurs forunis sont sous windows 10 Pro, mais vous pouvez installez Ubuntu dessus. Vous apprendrerez principalement Python mais aussi du JAVASCRIPT, SQL, CSS,HTML,..."
+            ]
+        },
+        {
+            "tags": "actionnaires",
+            "input":[            
+                "Quels sont les actionnaires principaux? ",
+                "Quoi sont les principaux actionnaires? ",
+                "Quels sont les principaux actionnaires des actionnaires? ",
+                "Quels sont les actionnaires ? "
+                            
+            ],
+            "responses":[
+                "France Active via France Active Investissement, la Caisse des Depôts\/Banque des Territoires, Phitrust Europe, Amundi, Mirova, INCO et Aviva Impact, et enfin le Credit Cooperatif via sa filiale ESFIN et son fonds IDES."
+            ]
+        }
+    ]
+}
+
+    
+
