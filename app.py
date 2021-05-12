@@ -18,6 +18,7 @@ def chat():
     if request.method == "POST":
         sentence = request.form['message']
         sentence = unquote(sentence)
+        print("Phrase écrite")
         print(sentence)
         preproc_mess = prep.preproc(sentence)
         print(preproc_mess)
@@ -27,10 +28,13 @@ def chat():
 def api():
    if request.method == 'POST':
         tag = request.form['mydata']
+        print("Tag envoyé à l'api")
+        print(tag)
         url = f'http://127.0.0.1:8000/api/target/apprenant/{tag}'
         response = requests.get(url)
         mess=response.json()
-        print(response)
+        print("Réponse du bot")
+        print(mess["data"])
         return mess["data"]
 
 if __name__ == '__main__':
